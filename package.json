@@ -1,0 +1,33 @@
+{
+  "name": "node-roots",
+  "version": "1.0.0",
+  "description": "Equation root computer",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/satrobit/node-roots.git"
+  },
+  "keywords": [
+    "Equation",
+    "root",
+    "computer"
+  ],
+  "author": "Amir Keshavarz <amirkekh@gmail.com> (http://satrobit.xyz/)",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/satrobit/node-roots/blob/master/LICENSE-MIT"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/satrobit/node-roots/issues"
+  },
+  "dependencies": {
+    "es6-promise": "^3.0.2",
+    "mocha": "~1.16.2",
+    "chai": "~1.8.1"
+  }
+}
